@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio</title>
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <h1>Programmer Name</h1>
+        <img class="image" src="Imagenes/Mio.jpg" alt="Image" height="200" width="200">
+        <br>
+
+        <img class="pequeño1" src="Imagenes/gibhub.jpg" alt="image" >
+
+                <a href="https://www.google.com/?hl=es">my github</a>
+        
+        <img class="pequeño" src="Imagenes/in.png" alt="Image" height="42" width="42">
+        
+                <a href="https://www.google.com/?hl=es">my linkedin</a>
+        
+        <img class="pequeño" src="Imagenes/correojpg.jpg" alt="Image" height="42" width="42">
+        
+                <a href="https://www.google.com/?hl=es">my email</a>
+        
+
+        <h2>Technologies</h2>
+
+        <table>
+                <tr>
+                  <th><strong>Front-end</strong></th>
+                  <th><strong>Python</strong></th>
+                  <th><strong>JavaScript</strong></th>
+                  <th><strong>Database</strong></th>
+                  <th><strong>Concepts</strong></th>
+                </tr>
+                <tr>
+                  <td>HTML5</td>
+                  <td>Django</td>
+                  <td>Express</td>
+                  <td>MySQL</td>
+                  <td>AJAX</td>
+                </tr>
+                <tr>
+                  <td>CSS3</td>
+                  <td>Flask</td>
+                  <td>Mongoose</td>
+                  <td>MongoDB</td>
+                  <td>OOP</td>
+                </tr>
+                <tr>
+                  <td>Bootstrap</td>
+                  <td>Unittest</td>
+                  <td>React</td>
+                  <td></td>
+                  <td>REST</td>
+                </tr>
+
+        </table>
+
+        <h2>Social Snakes</h2>
+        
+        <img class="pequeño2" src="Imagenes/icono.png" alt="image">
+
+        <p> Social media app made in Python - <a href="https://www.google.com/?hl=es">code</a> <strong>|</strong> <a href="https://www.google.com/?hl=es">deployed</a></p> 
+        <h2>Contact Me</h2>
+
+        <form action="/accion" method="post">
+                <div>
+
+                    <label>Name:  </label>
+                    <input type="text" name="input_texto"/>
+                    <label>Email:  </label>
+                    <input type="email" name="input_email"/>
+                    <br><br>
+                    <label>Message:  </label>
+                    <input class="uno" type="email" name="input_email"/>
+                </div>
+                <br>
+                <div>
+                        <input type="submit" value="Send Message"/>
+                </div>
+        </form>
+</body>
+</html>
